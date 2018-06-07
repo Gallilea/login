@@ -1,0 +1,127 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+#header{
+border: 1px solid black;
+height:80px;
+position: relative;
+
+}
+#logo{
+	position: relative;
+	left:1em;
+}
+p{
+	font-size: 0.8em;
+}
+
+.form{
+	display: -ms-flexbox;
+	display: flex;
+	float: right;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+.logbtn{
+	background-color:#999494;
+	color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.first{
+	width:60%;
+	height:100%;
+	float: left;
+	margin-top:20px;
+	
+}
+.second{
+	
+	width:40%;
+	height:100%;
+	float: right;
+	margin-top:30px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    margin-bottom: 25px;
+	
+}
+
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+	
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+
+
+.btn {
+    background-color: #999494;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+	margin-left:110px;
+}
+
+
+.media{
+	margin-top:30px;
+	
+}
+.btn1{
+	background-color:#4267B2;
+	 width: 65%;
+    padding: 10px;
+    outline: none;
+	color:white;
+	 border: none;
+    cursor: pointer;
+	margin-bottom:25px;
+	
+}
+
+.btn2{
+	background-color:#DC5043;
+	 width: 65%;
+    padding: 10px;
+    outline: none;
+	color:white;
+	 border: none;
+    cursor: pointer;
+}
+.footer {
+	height: 50px;
+	margin-top: -50px;
+ 
+}
+#info {
+	margin-top:100px;
+	
+	text-align:center;
+	}
