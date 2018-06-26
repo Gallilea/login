@@ -2,23 +2,29 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>My Way</title>
 </head>
 <body>
-	<div class="content">
-	<div class="content-inside">
-		<div id="header">
-			<h1 id="logo">My way</h1>
-				<form class="form" action="#" method="#">
 
-					<p>EMAIL <input type="text" name="username" placeholder="email adress"> PASSWORD <input type="password" name="password" placeholder="password">  <button type="submit" class="logbtn">Login</button></p>
-				</form>
+	<div class="header">
+		<h1 id="logo">My way</h1>
+		<form class="form"action=""  method="">
+			<b>EMAIL</b>
+			<input class="em" type="text" name="username" placeholder="email adress">
+			<b>PASSWORD</b>
+			<input class="em" type="password" name="password" placeholder="password">
+			<input class="btn" type="submit" name="page" value="Login">
+		</form>
+	</div>
+	<div class="row">
+		<div class="col-5 col-s-8">
+			<img src="images/img.jpg" width="600px" alt="space">
 		</div>
-		<div class="first"><p align=center><a><img src="images/img.jpg" width="600px" alt="space"></a></p></div>
 
-			<div class="second">
-			<form action="#"  method="" align="center">
+		<div class="col-6 col-s-12">
+			<form  class="reg-form" action=""  method="" >
 				<h2>Register</h2>
 					<div class="input-container">
 						<input class="input-field" type="text" name="username" placeholder="Username" >
@@ -29,18 +35,22 @@
 					  <div class="input-container">
 						<input class="input-field" type="password"  name="password" placeholder="Password">
 					  </div>
-						</p> <input type="checkbox"> Remeber me  <button type="submit" class="btn">Sign in</button></p>
-					  
-						<div class="media">
+					  <div class="input-container">
+						<p><input type="checkbox"> Remeber me </p> 
+						<input type="submit" value="Sign in" class="submit">
+					  </div>
+						<div >
 							<input class="btn1" type="submit"  value="Sign in with Facebook">
 							<input class="btn2" type="submit"  value="Sign in with Google Plus">
 						</div>
 			</form>
-			</div>
 		</div>
 	</div>
-	<footer class="footer">
-		<p id="info">&copy; June, 2018  ღ Dizajn: <a href="https://www.facebook.com/ana.gasparovic.3" target="_blank">Ana Gašparović</a></p>
-	</footer>
+
+<div class="footer">
+  <p id="info">&copy; June, 2018  ღ Dizajn: <a href="https://www.facebook.com/ana.gasparovic.3" target="_blank">Ana Gašparović</a></p>
+</div>
+
 </body>
 </html>
+
